@@ -1,0 +1,5 @@
+export enum OFFER_STATUS_ENUM{
+    PENDING = "PENDING",
+    ACCEPTED = "ACCEPTED",
+    REJECTED = "REJECTED",
+}
