@@ -19,11 +19,11 @@ import { RegionModule } from './modules/region/region.module';
   imports: [
     TypeOrmModule.forRoot({
       type: 'postgres',
-      host: process.env.DB_HOST,
+      host: "dpg-cvap4tqn91rc7398stq0-a",
       port: Number(process.env.DB_PORT) || 5432,
-      username: process.env.DB_USER,
-      password: process.env.DB_PASSWORD,
-      database: process.env.DB_NAME,
+      username: "dbname_eump_user",
+      password: "dCNb5Jndy5y8bciaH7H9ExmtwVJ9gNVt",
+      database: "dbname_eump",
       autoLoadEntities: true,
       synchronize: true, // ❌ เปลี่ยนเป็น false ใน production
     }),
